@@ -1,10 +1,14 @@
-import { Router } from 'react-router'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Router />
+      <Router>
+        <Switch>
+          
+        </Switch>
+      </Router>
     </div>
   );
 }
