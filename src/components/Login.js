@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
 const Login = (props) => {
-    return <div>Login</div>
-}
+    <Container>
+        <Content>Content</Content>
+    </Container>
 
 export default Login
