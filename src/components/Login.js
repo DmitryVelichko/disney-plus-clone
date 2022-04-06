@@ -6,9 +6,12 @@ const Login = (props) => {
       <Content>Content</Content>
     </Container>
   );
-
-  const Container = styled.section``;
+};
+  const Container = styled.section`
+    overflow: hidden;
+    display: flex;
+  `;
 
   const Content = styled.div``;
-};
+
 export default Login;
