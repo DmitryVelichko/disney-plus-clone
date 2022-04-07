@@ -3,7 +3,9 @@ import styled from 'styled-components';
 const Login = (props) => {
   return (
     <Container>
-      <Content>Content</Content>
+      <Content>
+        <BgImage />
+      </Content>
     </Container>
   );
 };
@@ -30,5 +32,9 @@ const Login = (props) => {
     padding: 80px 40px;
     border: 1px solid red;
   `;
+
+  const BgImage = styled.div `
+    background-image: url('/images/login-background.jpg')
+  `
 
 export default Login;
