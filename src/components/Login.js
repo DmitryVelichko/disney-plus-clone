@@ -18,6 +18,7 @@ const Login = (props) => {
   const Content = styled.div`
     margin-bottom: 10vw;
     width: 100%;
+    position: relative;
   `;
 
 export default Login;
