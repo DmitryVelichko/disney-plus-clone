@@ -11,6 +11,8 @@ const Login = (props) => {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    text-align: center;
+    height: 100vh;
   `;
 
   const Content = styled.div``;
