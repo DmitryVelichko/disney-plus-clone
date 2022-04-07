@@ -15,7 +15,6 @@ const Login = (props) => {
     flex-direction: column;
     text-align: center;
     height: 100vh;
-    border: 1px solid blue;
   `;
 
   const Content = styled.div`
@@ -30,11 +29,12 @@ const Login = (props) => {
     align-items: center;
     flex-direction: column;
     padding: 80px 40px;
-    border: 1px solid red;
   `;
 
   const BgImage = styled.div `
-    background-image: url('/images/login-background.jpg')
+    background-image: url('/images/login-background.jpg');
+    height: 100%;
+    background-position: top;
   `
 
 export default Login;
