@@ -21,6 +21,9 @@ const Login = (props) => {
     position: relative;
     min-height: 100vh;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+
   `;
 
 export default Login;
