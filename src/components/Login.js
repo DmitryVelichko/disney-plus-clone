@@ -15,6 +15,9 @@ const Login = (props) => {
     height: 100vh;
   `;
 
-  const Content = styled.div``;
+  const Content = styled.div`
+    margin-bottom: 10vw;
+    width: 100%;
+  `;
 
 export default Login;
