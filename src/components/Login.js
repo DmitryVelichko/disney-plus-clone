@@ -19,6 +19,8 @@ const Login = (props) => {
     margin-bottom: 10vw;
     width: 100%;
     position: relative;
+    min-height: 100vh;
+    box-sizing: border-box;
   `;
 
 export default Login;
