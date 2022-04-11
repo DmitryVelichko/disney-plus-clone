@@ -49,4 +49,6 @@ const Login = (props) => {
 
   const CTA = styled.div``;
 
+  const CTALogoOne = styled.img``
+
 export default Login;
