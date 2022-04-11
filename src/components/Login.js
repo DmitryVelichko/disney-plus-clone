@@ -51,6 +51,8 @@ const Login = (props) => {
     margin-bottom: 2vw;
     max-width: 650px;
     flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
   `;
 
   const CTALogoOne = styled.img`
