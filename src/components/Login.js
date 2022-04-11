@@ -53,6 +53,8 @@ const Login = (props) => {
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   `;
 
   const CTALogoOne = styled.img`
