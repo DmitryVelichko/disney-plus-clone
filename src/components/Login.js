@@ -49,6 +49,8 @@ const Login = (props) => {
 
   const CTA = styled.div`
     margin-bottom: 2vw;
+    max-width: 650px;
+    flex-wrap: wrap;
   `;
 
   const CTALogoOne = styled.img`
