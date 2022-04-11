@@ -54,6 +54,7 @@ const Login = (props) => {
     max-width: 600px;
     min-height: 1px;
     display: block;
+    width: 100%;
   `
 
 export default Login;
