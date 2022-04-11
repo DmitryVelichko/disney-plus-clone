@@ -47,7 +47,9 @@ const Login = (props) => {
     z-index: -1;
   `
 
-  const CTA = styled.div``;
+  const CTA = styled.div`
+    margin-bottom: 2vw;
+  `;
 
   const CTALogoOne = styled.img`
     margin-bottom: 12px;
