@@ -57,6 +57,8 @@ const Login = (props) => {
     align-items: center;
     margin-top: 0;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
   `;
 
   const CTALogoOne = styled.img`
