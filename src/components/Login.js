@@ -4,6 +4,9 @@ const Login = (props) => {
   return (
     <Container>
       <Content>
+        <CTA>
+          <CTALogoOne srt='/images/cta-logo-one.png'/>
+        </CTA>
         <BgImage />
       </Content>
     </Container>
