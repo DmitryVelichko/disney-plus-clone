@@ -5,7 +5,7 @@ const Login = (props) => {
     <Container>
       <Content>
         <CTA>
-          <CTALogoOne srt='/images/cta-logo-one.png'/>
+          <CTALogoOne src='/images/cta-logo-one.png' alt='logos'/>
         </CTA>
         <BgImage />
       </Content>
@@ -46,5 +46,7 @@ const Login = (props) => {
     left: 0;
     z-index: -1;
   `
+
+  const CTA = styled.div``;
 
 export default Login;
