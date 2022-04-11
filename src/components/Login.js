@@ -52,6 +52,8 @@ const Login = (props) => {
   const CTALogoOne = styled.img`
     margin-bottom: 12px;
     max-width: 600px;
+    min-height: 1px;
+    display: block;
   `
 
 export default Login;
