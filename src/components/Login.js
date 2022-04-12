@@ -60,7 +60,8 @@ const Login = (props) => {
     margin-right: auto;
     margin-left: auto;
     transition-timing-function: ease-out;
-    
+    transition: opacity 0.2s;
+    width: 100%;
 
   `;
 
