@@ -79,6 +79,8 @@ const SignUp = styled.a`
   background-color: #0063e5;
   margin-bottom: 12px;
   width: 100%;
+  letter-spacing: 1.5px;
+  font-size: 18px;
 `;
 
 export default Login;
