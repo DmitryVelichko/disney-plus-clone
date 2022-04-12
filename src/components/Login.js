@@ -83,6 +83,11 @@ const SignUp = styled.a`
   font-size: 18px;
   padding: 16.5px 0;
   border: 1px solid transparent;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: #0483ee;
+  }
 `;
 
 export default Login;
