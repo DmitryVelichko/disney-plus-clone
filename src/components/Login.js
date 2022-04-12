@@ -59,6 +59,9 @@ const Login = (props) => {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+    transition-timing-function: ease-out;
+    
+
   `;
 
   const CTALogoOne = styled.img`
