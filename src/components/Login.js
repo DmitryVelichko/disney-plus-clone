@@ -75,6 +75,8 @@ const CTALogoOne = styled.img`
 
 const SignUp = styled.a`
   font-weight: bold;
+  color: #f9f9f9;
+  background-color: #0063e5;
 `;
 
 export default Login;
