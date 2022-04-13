@@ -13,6 +13,8 @@ const Nav = styled.nav`
   background-color: #090b13;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 0 36px;
 `;
 
 export default Header;
