@@ -104,4 +104,9 @@ const Description = styled.p`
   letter-spacing: 1.5px;
 `
 
+const CTALogoTwo = styled.img`
+  max-width: 600px;
+  margin-bottom: 20px;
+`
+
 export default Login;
