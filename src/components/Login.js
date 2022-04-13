@@ -107,6 +107,9 @@ const Description = styled.p`
 const CTALogoTwo = styled.img`
   max-width: 600px;
   margin-bottom: 20px;
+  display: inline-block;
+  vertical-align: bottom;
+  
 `
 
 export default Login;
