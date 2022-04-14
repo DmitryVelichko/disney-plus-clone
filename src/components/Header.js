@@ -15,6 +15,7 @@ const Nav = styled.nav`
   justify-content: space-between;
   align-items: center;
   padding: 0 36px;
+  letter-spacing: 16px;
 `;
 
 export default Header;
