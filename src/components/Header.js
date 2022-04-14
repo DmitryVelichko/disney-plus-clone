@@ -31,6 +31,7 @@ const Logo = styled.a`
   margin-top: 4px;
   max-height: 70px;
   font-size: 0;
+  display: inline-block;
 `
 
 export default Header;
