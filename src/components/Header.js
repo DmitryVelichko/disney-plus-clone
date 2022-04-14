@@ -1,7 +1,13 @@
 import styled from 'styled-components';
 
 const Header = (props) => {
-  return <Nav>Header</Nav>;
+  return (
+  <Nav>
+    <Logo>
+      <img src="/images/logo.svg" alt="Disney+" />
+    </Logo>
+  </Nav>
+  );
 };
 
 const Nav = styled.nav`
