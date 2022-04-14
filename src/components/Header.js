@@ -30,6 +30,7 @@ const Logo = styled.a`
   width: 80px;
   margin-top: 4px;
   max-height: 70px;
+  font-size: 0;
 `
 
 export default Header;
