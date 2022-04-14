@@ -34,6 +34,7 @@ const Logo = styled.a`
   display: inline-block;
   img {
     display: block;
+    width: 100%;
   }
 `
 
