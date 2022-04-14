@@ -27,6 +27,7 @@ const Nav = styled.nav`
 
 const Logo = styled.a`
   padding: 0;
+  width: 80px;
 `
 
 export default Header;
