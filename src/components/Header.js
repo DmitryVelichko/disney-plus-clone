@@ -25,4 +25,8 @@ const Nav = styled.nav`
   z-index: 3;
 `;
 
+const Logo = styled.a`
+  padding: 0;
+`
+
 export default Header;
