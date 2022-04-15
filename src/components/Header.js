@@ -6,7 +6,11 @@ const Header = (props) => {
       <Logo>
         <img src='/images/logo.svg' alt='Disney+' />
       </Logo>
-      <NavMenu>Menu</NavMenu>
+      <NavMenu>
+        <a href="/home">
+          <img src="/images/home-icon.svg" alt="Home" />
+        </a>
+      </NavMenu>
     </Nav>
   );
 };
