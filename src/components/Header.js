@@ -45,6 +45,8 @@ const NavMenu = styled.div`
   flex-flow: row nowrap;
   height: 100%;
   justify-content: flex-end;
+  margin: 0;
+  padding: 0;
 `;
 
 export default Header;
