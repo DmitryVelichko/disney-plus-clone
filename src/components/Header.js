@@ -56,6 +56,11 @@ const NavMenu = styled.div`
   margin-right: auto;
   margin-left: 25px;
 
+  a {
+    display: flex;
+    align-items: center;
+  }
+
   /* @media(max-width: 768px) {
     display: none;
   } */
