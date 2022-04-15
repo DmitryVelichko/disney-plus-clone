@@ -63,6 +63,8 @@ const NavMenu = styled.div`
 
     img {
       height: 20px;
+      min-width: 20px;
+      width: 20px;
     }
   }
 
