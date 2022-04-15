@@ -2,12 +2,12 @@ import styled from 'styled-components';
 
 const Header = (props) => {
   return (
-  <Nav>
-    <Logo>
-      <img src="/images/logo.svg" alt="Disney+" />
-    </Logo>
-    <NavMenu>Menu</NavMenu>
-  </Nav>
+    <Nav>
+      <Logo>
+        <img src='/images/logo.svg' alt='Disney+' />
+      </Logo>
+      <NavMenu>Menu</NavMenu>
+    </Nav>
   );
 };
 
@@ -37,10 +37,12 @@ const Logo = styled.a`
     display: block;
     width: 100%;
   }
-`
+`;
 
 const NavMenu = styled.div`
   align-items: center;
-`
+  display: flex;
+  flex-flow: row nowrap;
+`;
 
 export default Header;
