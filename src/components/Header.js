@@ -43,6 +43,8 @@ const NavMenu = styled.div`
   align-items: center;
   display: flex;
   flex-flow: row nowrap;
+  height: 100%;
+  justify-content: flex-end;
 `;
 
 export default Header;
