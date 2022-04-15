@@ -65,6 +65,11 @@ const NavMenu = styled.div`
       height: 20px;
       min-width: 20px;
       width: 20px;
+      z-index: auto;
+    }
+
+    span {
+      color: rgb(249, 249, 249);
     }
   }
 
