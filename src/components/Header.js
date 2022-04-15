@@ -59,7 +59,13 @@ const NavMenu = styled.div`
   a {
     display: flex;
     align-items: center;
+    padding: 0 12px;
+
+    img {
+      height: 20px;
+    }
   }
+
 
   /* @media(max-width: 768px) {
     display: none;
