@@ -74,7 +74,7 @@ const NavMenu = styled.div`
       letter-spacing: 1.42px;
       padding: 2px 0px;
       white-space: nowrap;
-      
+      position: relative;
     }
   }
 
