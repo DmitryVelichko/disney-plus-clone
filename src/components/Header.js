@@ -76,6 +76,10 @@ const NavMenu = styled.div`
       white-space: nowrap;
       position: relative;
     }
+
+    &:before {
+      background-color: rgb(249, 249, 249);
+    }
   }
 
   /* @media(max-width: 768px) {
