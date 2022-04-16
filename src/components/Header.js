@@ -83,6 +83,8 @@ const NavMenu = styled.div`
       bottom: -6px;
       content: '';
       height: 2px;
+      position: absolute;
+      right: 0px;
     }
   }
 
