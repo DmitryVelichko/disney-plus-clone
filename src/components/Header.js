@@ -32,6 +32,7 @@ const Header = (props) => {
           <span>SERIES</span>
         </a>
       </NavMenu>
+      <Login>Login</Login>
     </Nav>
   );
 };
@@ -127,5 +128,9 @@ const NavMenu = styled.div`
     display: none;
   } */
 `;
+
+const Login = styled.a `
+  background-color: rgba(0,0,0,0.6);
+`
 
 export default Header;
