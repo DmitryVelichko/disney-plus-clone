@@ -75,7 +75,7 @@ const NavMenu = styled.div`
       padding: 2px 0px;
       white-space: nowrap;
       position: relative;
-    }
+   
 
     &:before {
       background-color: rgb(249, 249, 249);
@@ -83,6 +83,7 @@ const NavMenu = styled.div`
       bottom: -6px;
       content: '';
       height: 2px;
+      left: 0px;
       position: absolute;
       right: 0px;
       transform-origin: left center;
@@ -100,6 +101,7 @@ const NavMenu = styled.div`
       opacity: 1 !important;
     }
   }
+}
 
   /* @media(max-width: 768px) {
     display: none;
