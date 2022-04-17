@@ -93,6 +93,12 @@ const NavMenu = styled.div`
     }
   }
 
+  &:hover {
+    span:before {
+      visibility: visible;
+    }
+  }
+
   /* @media(max-width: 768px) {
     display: none;
   } */
