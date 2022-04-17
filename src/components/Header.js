@@ -27,6 +27,10 @@ const Header = (props) => {
           <img src='/images/movie-icon.svg' alt='Movies' />
           <span>MOVIES</span>
         </a>
+        <a>
+          <img src='/images/series-icon.svg' alt='Series' />
+          <span>SERIES</span>
+        </a>
       </NavMenu>
     </Nav>
   );
