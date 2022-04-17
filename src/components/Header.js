@@ -19,6 +19,10 @@ const Header = (props) => {
           <img src='/images/watchlist-icon.svg' alt='Watchlist' />
           <span>WATCHLIST</span>
         </a>
+        <a>
+          <img src='/images/original-icon.svg' alt='Originals' />
+          <span>ORIGINALS</span>
+        </a>
       </NavMenu>
     </Nav>
   );
