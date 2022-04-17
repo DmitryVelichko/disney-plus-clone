@@ -81,6 +81,7 @@ const NavMenu = styled.div`
     display: flex;
     align-items: center;
     padding: 0 12px;
+    cursor: pointer;
 
     img {
       height: 20px;
@@ -133,6 +134,9 @@ const Login = styled.a `
   background-color: rgba(0,0,0,0.6);
   padding: 8px 16px;
   text-transform: uppercase;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  border: 1px solid #f9f9f9;
 `
 
 export default Header;
