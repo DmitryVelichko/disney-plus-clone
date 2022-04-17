@@ -11,6 +11,10 @@ const Header = (props) => {
           <img src='/images/home-icon.svg' alt='Home' />
           <span>HOME</span>
         </a>
+        <a>
+          <img src='/images/search-icon.svg' alt='Search' />
+          <span>Search</span>
+        </a>
       </NavMenu>
     </Nav>
   );
