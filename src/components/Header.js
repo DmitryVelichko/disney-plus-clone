@@ -137,6 +137,7 @@ const Login = styled.a `
   letter-spacing: 1.5px;
   cursor: pointer;
   border: 1px solid #f9f9f9;
+  border-radius: 4px;
 `
 
 export default Header;
