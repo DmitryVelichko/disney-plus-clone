@@ -138,6 +138,7 @@ const Login = styled.a `
   cursor: pointer;
   border: 1px solid #f9f9f9;
   border-radius: 4px;
+  transition: all 0.2s ease 0s;
 `
 
 export default Header;
