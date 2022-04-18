@@ -1,8 +1,12 @@
 import styled from 'styled-components';
+import { auth, provider } from '../firebase';
 
 const Header = (props) => {
 
-  
+  const handleAuth = () => {
+    auth.signInWithPopup(provider);
+  }
+
   return (
     <Nav>
       <Logo>
