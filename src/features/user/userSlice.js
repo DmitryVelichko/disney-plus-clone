@@ -18,6 +18,8 @@ const userSlice = createSlice({
 
         setSignOutState: (state) => {
             state.name = null;
+            state.email = null;
+            state.photo = null;
         }
     }
 })
