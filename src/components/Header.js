@@ -4,7 +4,9 @@ import { auth, provider } from '../firebase';
 const Header = (props) => {
 
   const handleAuth = () => {
-    auth.signInWithPopup(provider);
+    auth.signInWithPopup(provider).then((result) => {
+      console.log(resutlt)
+    });
   }
 
   return (
