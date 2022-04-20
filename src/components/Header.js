@@ -7,6 +7,7 @@ import { selectUserName, selectUserPhoto, selectUserLoginDetails } from '../feat
 const Header = (props) => {
 
   const dispatch = useDispatch();
+  const history = useHistory();
 
   const handleAuth = () => {
     auth.signInWithPopup(provider).then((result) => {
