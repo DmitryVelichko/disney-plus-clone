@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { auth, provider } from '../firebase';
+import { useDispatch, useSelector } from 'react-redux';
 
 const Header = (props) => {
 
