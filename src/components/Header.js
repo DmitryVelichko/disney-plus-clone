@@ -13,10 +13,14 @@ const Header = (props) => {
 
   const handleAuth = () => {
     auth.signInWithPopup(provider).then((result) => {
-      console.log(result);
+      setUser(result.user);
     }).catch((error) => {
       alert(error.message);
     })
+  }
+
+  const setUser = (user) => {
+    
   }
 
   return (
