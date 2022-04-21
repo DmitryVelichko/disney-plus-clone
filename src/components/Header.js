@@ -2,28 +2,39 @@ import styled from 'styled-components';
 import { auth, provider } from '../firebase';
 import { useDispatch, useSelector } from 'react-redux';
 import { useHistory } from 'react-router-dom';
-import { selectUserName, selectUserPhoto, selectUserLoginDetails } from '../features/user/userSlice';
+import {
+  selectUserName,
+  selectUserPhoto,
+  selectUserLoginDetails,
+  setUserLoginDetails,
+} from '../features/user/userSlice';
 
 const Header = (props) => {
-
   const dispatch = useDispatch();
   const history = useHistory();
   const username = useSelector(selectUserName);
   const userPhoto = useSelector(selectUserPhoto);
 
   const handleAuth = () => {
-    auth.signInWithPopup(provider).then((result) => {
-      setUser(result.user);
-    }).catch((error) => {
-      alert(error.message);
-    })
-  }
+    auth
+      .signInWithPopup(provider)
+      .then((result) => {
+        setUser(result.user);
+      })
+      .catch((error) => {
+        alert(error.message);
+      });
+  };
 
   const setUser = (user) => {
     dispatch(
-      
-    )
-  }
+      setUserLoginDetails({
+        name: user.displayName,
+        email: user.email,
+        photo: user.photoURL,
+      })
+    );
+  };
 
   return (
     <Nav>
