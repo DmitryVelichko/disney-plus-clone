@@ -42,7 +42,14 @@ const Header = (props) => {
         <img src='/images/logo.svg' alt='Disney+' />
       </Logo>
 
-      {!userName ? <Login onClick={handleauth}>Login</Login> : <></>}
+      {!userName ? <Login onClick={handleauth}>Login</Login> : 
+      <>
+      <NavMenu>
+        <a href="/home">
+          <img src="/images/home-icon.svg" alt="HOME" />
+        </a>
+      </NavMenu>
+      </>}
       <NavMenu>
         <a href='/home'>
           <img src='/images/home-icon.svg' alt='Home' />
