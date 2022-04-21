@@ -42,40 +42,38 @@ const Header = (props) => {
         <img src='/images/logo.svg' alt='Disney+' />
       </Logo>
 
-      {!userName ? <Login onClick={handleauth}>Login</Login> : 
-      <>
-      <NavMenu>
-        <a href="/home">
-          <img src="/images/home-icon.svg" alt="HOME" />
-        </a>
-      </NavMenu>
-      </>}
-      <NavMenu>
-        <a href='/home'>
-          <img src='/images/home-icon.svg' alt='Home' />
-          <span>HOME</span>
-        </a>
-        <a>
-          <img src='/images/search-icon.svg' alt='Search' />
-          <span>SEARCH</span>
-        </a>
-        <a>
-          <img src='/images/watchlist-icon.svg' alt='Watchlist' />
-          <span>WATCHLIST</span>
-        </a>
-        <a>
-          <img src='/images/original-icon.svg' alt='Originals' />
-          <span>ORIGINALS</span>
-        </a>
-        <a>
-          <img src='/images/movie-icon.svg' alt='Movies' />
-          <span>MOVIES</span>
-        </a>
-        <a>
-          <img src='/images/series-icon.svg' alt='Series' />
-          <span>SERIES</span>
-        </a>
-      </NavMenu>
+      {!userName ? (
+        <Login onClick={handleauth}>Login</Login>
+      ) : (
+        <>
+          <NavMenu>
+            <a href='/home'>
+              <img src='/images/home-icon.svg' alt='Home' />
+              <span>HOME</span>
+            </a>
+            <a>
+              <img src='/images/search-icon.svg' alt='Search' />
+              <span>SEARCH</span>
+            </a>
+            <a>
+              <img src='/images/watchlist-icon.svg' alt='Watchlist' />
+              <span>WATCHLIST</span>
+            </a>
+            <a>
+              <img src='/images/original-icon.svg' alt='Originals' />
+              <span>ORIGINALS</span>
+            </a>
+            <a>
+              <img src='/images/movie-icon.svg' alt='Movies' />
+              <span>MOVIES</span>
+            </a>
+            <a>
+              <img src='/images/series-icon.svg' alt='Series' />
+              <span>SERIES</span>
+            </a>
+          </NavMenu>
+        </>
+      )}
       <Login onClick={handleAuth}>Login</Login>
     </Nav>
   );
