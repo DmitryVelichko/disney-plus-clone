@@ -75,7 +75,7 @@ const Header = (props) => {
           <UserImg src={userPhoto} alt={userName}/>
         </>
       )}
-      <Login onClick={handleAuth}>Login</Login>
+      
     </Nav>
   );
 };
@@ -189,7 +189,7 @@ const Login = styled.a`
   }
 `;
 
-const userImg = styled.img`
+const UserImg = styled.img`
   height: 100%;
 `
 
