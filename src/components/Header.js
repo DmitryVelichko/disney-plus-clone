@@ -20,7 +20,9 @@ const Header = (props) => {
   }
 
   const setUser = (user) => {
-    
+    dispatch(
+      
+    )
   }
 
   return (
