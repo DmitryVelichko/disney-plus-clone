@@ -9,6 +9,7 @@ const Header = (props) => {
   const dispatch = useDispatch();
   const history = useHistory();
   const username = useSelector(selectUserName);
+  const userPhoto = useSelector(selectUserPhoto);
 
   const handleAuth = () => {
     auth.signInWithPopup(provider).then((result) => {
