@@ -189,4 +189,8 @@ const Login = styled.a`
   }
 `;
 
+const userImg = styled.img`
+  height: 100%;
+`
+
 export default Header;
