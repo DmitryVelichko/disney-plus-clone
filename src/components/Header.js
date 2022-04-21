@@ -12,7 +12,7 @@ import {
 const Header = (props) => {
   const dispatch = useDispatch();
   const history = useHistory();
-  const username = useSelector(selectUserName);
+  const userName = useSelector(selectUserName);
   const userPhoto = useSelector(selectUserPhoto);
 
   const handleAuth = () => {
@@ -43,7 +43,7 @@ const Header = (props) => {
       </Logo>
 
       {!userName ? (
-        <Login onClick={handleauth}>Login</Login>
+        <Login onClick={handleAuth}>Login</Login>
       ) : (
         <>
           <NavMenu>
