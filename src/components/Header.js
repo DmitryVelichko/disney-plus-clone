@@ -211,4 +211,8 @@ const DropDown = styled.div`
 
 `
 
+const SignOut = styled.div`
+
+`
+
 export default Header;
