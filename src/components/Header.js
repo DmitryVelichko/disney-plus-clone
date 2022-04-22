@@ -22,8 +22,8 @@ const Header = (props) => {
         setUser(user);
         history.push('/home');
       }
-    })
-  })
+    });
+  }, [userName]);
 
   const handleAuth = () => {
     auth
@@ -82,10 +82,11 @@ const Header = (props) => {
               <span>SERIES</span>
             </a>
           </NavMenu>
-          <UserImg src={userPhoto} alt={userName}/>
+          <SignOut>
+            <UserImg src={userPhoto} alt={userName} />
+          </SignOut>
         </>
       )}
-      
     </Nav>
   );
 };
@@ -201,6 +202,6 @@ const Login = styled.a`
 
 const UserImg = styled.img`
   height: 100%;
-`
+`;
 
 export default Header;
